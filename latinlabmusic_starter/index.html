@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Latin Lab Music — Record Pool: Remixes, Beats, Arte & Más</title>
+  <meta name="description" content="LATIN LAB MUSIC: Record Pool con remixes exclusivos, beats, ediciones personalizadas, flyers y banners. Suscripción mensual para DJs y creadores."/>
+  <meta name="theme-color" content="#0f0f10"/>
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="Latin Lab Music — Record Pool Premium" />
+  <meta property="og:description" content="Descarga remixes, beats y arte exclusivo. Record Pool con membresía mensual." />
+  <meta property="og:image" content="/og-image.png" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="/assets/favicon.ico">
+
+  <!-- Tailwind CDN (para lanzamiento rápido) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Fuente opcional -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    html,body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+    .glass{backdrop-filter:saturate(180%) blur(8px); background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.08)}
+  </style>
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"Latin Lab Music",
+    "url":"https://latinlabmusic.com",
+    "logo":"https://latinlabmusic.com/assets/logo.png",
+    "sameAs":[]
+  }
+  </script>
+</head>
+<body class="bg-zinc-950 text-zinc-100">
+  <!-- Header -->
+  <header class="sticky top-0 z-40 bg-zinc-950/80 glass">
+    <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-2 font-extrabold text-xl">
+        <img src="/assets/logo.svg" alt="Latin Lab Music" class="h-8 w-8">
+        LATIN LAB MUSIC
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#catalogo" class="hover:text-white/90">Catálogo</a>
+        <a href="#planes" class="hover:text-white/90">Planes</a>
+        <a href="#features" class="hover:text-white/90">Funciones</a>
+        <a href="#faq" class="hover:text-white/90">FAQ</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <a href="/login" class="text-sm opacity-80 hover:opacity-100">Entrar</a>
+        <a href="/signup" class="bg-white text-zinc-900 rounded-xl px-4 py-2 text-sm font-semibold hover:opacity-90">Comenzar</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-b from-fuchsia-700/10 via-transparent to-transparent pointer-events-none"></div>
+    <div class="max-w-6xl mx-auto px-4 py-20 md:py-28">
+      <div class="max-w-3xl">
+        <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight">
+          Record Pool latino con <span class="text-fuchsia-400">remixes</span>, <span class="text-fuchsia-400">beats</span> y <span class="text-fuchsia-400">arte</span> exclusivos.
+        </h1>
+        <p class="mt-5 text-lg text-white/80">
+          Descargas rápidas, contenido fresco cada semana y herramientas para que tus sets y lanzamientos suenen diferentes.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="/signup" class="bg-fuchsia-500 text-white rounded-xl px-5 py-3 font-semibold hover:opacity-90">Empieza gratis 7 días</a>
+          <a href="#catalogo" class="rounded-xl px-5 py-3 font-semibold border border-white/20 hover:bg-white/5">Ver catálogo</a>
+        </div>
+        <div class="mt-6 text-sm text-white/60">Sin permanencia. Cancela cuando quieras.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Catálogo preview -->
+  <section id="catalogo" class="max-w-6xl mx-auto px-4 py-14">
+    <div class="flex items-end justify-between">
+      <h2 class="text-2xl md:text-3xl font-extrabold">Lo último del pool</h2>
+      <a href="/catalog" class="text-sm opacity-80 hover:opacity-100">Ver todo →</a>
+    </div>
+    <div class="mt-6 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+      <!-- Item -->
+      <article class="glass rounded-2xl p-3">
+        <img src="/assets/covers/cover-01.jpg" alt="" class="rounded-xl aspect-square object-cover w-full">
+        <div class="mt-3">
+          <h3 class="text-sm font-semibold">Reggaetón Edit — 126BPM</h3>
+          <p class="text-xs opacity-70">Key: 8A • WAV + MP3</p>
+          <button class="mt-2 w-full border border-white/20 rounded-lg py-2 text-sm hover:bg-white/5">Preview</button>
+        </div>
+      </article>
+      <!-- Duplicar más items en el futuro -->
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="max-w-6xl mx-auto px-4 py-14">
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="glass rounded-2xl p-6">
+        <h3 class="font-bold text-lg">Remixes & Edits exclusivos</h3>
+        <p class="mt-2 text-sm text-white/70">Contenido propio y de productores invitados. Metadatos listos para tu biblioteca.</p>
+      </div>
+      <div class="glass rounded-2xl p-6">
+        <h3 class="font-bold text-lg">Beats + Personalizados</h3>
+        <p class="mt-2 text-sm text-white/70">Comisiones privadas y stems. Entrega rápida y contratos claros.</p>
+      </div>
+      <div class="glass rounded-2xl p-6">
+        <h3 class="font-bold text-lg">Arte: Flyers & Banners</h3>
+        <p class="mt-2 text-sm text-white/70">Packs semanales para eventos y lanzamientos. Tamaños listos para redes.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Planes -->
+  <section id="planes" class="max-w-6xl mx-auto px-4 py-14">
+    <h2 class="text-2xl md:text-3xl font-extrabold">Planes simples</h2>
+    <div class="mt-6 grid md:grid-cols-3 gap-6">
+      <div class="glass rounded-2xl p-6">
+        <h3 class="font-bold text-xl">Básico</h3>
+        <p class="mt-1 text-sm opacity-70">Para empezar</p>
+        <div class="mt-4 text-3xl font-extrabold">$9.99<span class="text-base font-semibold opacity-70">/mes</span></div>
+        <ul class="mt-4 text-sm space-y-2 opacity-90">
+          <li>✓ Descargas limitadas</li>
+          <li>✓ Acceso a remixes estándar</li>
+          <li>— Sin beats personalizados</li>
+        </ul>
+        <a href="/signup?plan=basic" class="mt-6 block text-center bg-white text-zinc-900 rounded-xl px-4 py-2 font-semibold hover:opacity-90">Elegir Básico</a>
+      </div>
+
+      <div class="glass rounded-2xl p-6 border border-fuchsia-500/50">
+        <h3 class="font-bold text-xl">Pro</h3>
+        <p class="mt-1 text-sm opacity-70">Para DJs activos</p>
+        <div class="mt-4 text-3xl font-extrabold">$19.99<span class="text-base font-semibold opacity-70">/mes</span></div>
+        <ul class="mt-4 text-sm space-y-2 opacity-90">
+          <li>✓ Descargas ilimitadas</li>
+          <li>✓ Contenido exclusivo semanal</li>
+          <li>✓ Prioridad en nuevos lanzamientos</li>
+        </ul>
+        <a href="/signup?plan=pro" class="mt-6 block text-center bg-fuchsia-500 text-white rounded-xl px-4 py-2 font-semibold hover:opacity-90">Elegir Pro</a>
+      </div>
+
+      <div class="glass rounded-2xl p-6">
+        <h3 class="font-bold text-xl">Elite</h3>
+        <p class="mt-1 text-sm opacity-70">Producers & marcas</p>
+        <div class="mt-4 text-3xl font-extrabold">$29.99<span class="text-base font-semibold opacity-70">/mes</span></div>
+        <ul class="mt-4 text-sm space-y-2 opacity-90">
+          <li>✓ Remixes + Beats + Arte</li>
+          <li>✓ Descuentos en personalizados</li>
+          <li>✓ Soporte prioritario</li>
+        </ul>
+        <a href="/signup?plan=elite" class="mt-6 block text-center bg-white text-zinc-900 rounded-xl px-4 py-2 font-semibold hover:opacity-90">Elegir Elite</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="max-w-6xl mx-auto px-4 py-14">
+    <h2 class="text-2xl md:text-3xl font-extrabold">Preguntas frecuentes</h2>
+    <div class="mt-6 grid md:grid-cols-2 gap-6 text-sm text-white/80">
+      <div>
+        <h3 class="font-semibold">¿Cómo funcionan los pagos?</h3>
+        <p class="mt-1">Aceptamos tarjetas (Stripe) y PayPal. La suscripción se renueva automáticamente y puedes cancelar cuando quieras.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold">¿Puedo usar los remixes en mis sets?</h3>
+        <p class="mt-1">Sí, para uso en DJ sets/live-streams. Para lanzamientos comerciales se requiere licencia adicional.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/10">
+    <div class="max-w-6xl mx-auto px-4 py-10 text-sm text-white/60">
+      <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+        <p>© <span id="yy"></span> Latin Lab Music. Todos los derechos reservados.</p>
+        <div class="flex gap-4">
+          <a href="/legal/terminos">Términos</a>
+          <a href="/legal/licencias">Licencias</a>
+          <a href="/contacto">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('yy').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
